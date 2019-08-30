@@ -23,8 +23,10 @@ const getLugarLat = async (dir)=>{
         lat,
         lng
     }
-    module.exports = {
-        getLugarLat
-    }
+    
 }   
+
+module.exports = {
+    getLugarLat
+}
 
