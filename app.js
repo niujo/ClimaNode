@@ -20,7 +20,7 @@ lugar.getLugarLat(argv.direccion)
     .catch(console.log); */
     const  getInfo = async (direccion) => {
         try {
-            /* console.log('hola'); */
+           
             const coords = await lugar.getLugarLat(direccion);
             const temp = await clima.getClima(coords.lat, coords.lng);
             return `El clima de ${coords.direccion} es de ${temp}.`;
